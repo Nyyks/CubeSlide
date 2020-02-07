@@ -378,7 +378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnX: 25
   tileLength: 25
-  amnTilesOnScreen: 10
+  amnTilesOnScreen: 5
   safeZone: 15
   tilePrefabs:
   - {fileID: 1649323605118239258, guid: 4d04e04e3f569854da28e32258c59a43, type: 3}

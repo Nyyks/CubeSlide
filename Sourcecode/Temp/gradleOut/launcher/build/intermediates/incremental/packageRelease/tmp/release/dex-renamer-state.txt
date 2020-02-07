@@ -1,0 +1,4 @@
+#Fri Feb 07 17:48:21 CET 2020
+base.0=D\:\\users\\Janik\\Documents\\Unity\\Cube Slide\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
