@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 420931158346425414}
   - component: {fileID: 420931158346425415}
   - component: {fileID: 420931158346425418}
-  - component: {fileID: 420931158346425423}
   - component: {fileID: 420931158346425419}
   - component: {fileID: 420931158346425417}
+  - component: {fileID: 1752129604}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -113,24 +113,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!143 &420931158346425423
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 420931158346425408}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 1
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &420931158346425419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,3 +141,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {fileID: 420931158346425419}
+--- !u!114 &1752129604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420931158346425408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dee2b57a377b1904eacc1bdecef7fda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hitbox: {fileID: 420931158346425415}
+  Rigidbody: {fileID: 420931158346425418}

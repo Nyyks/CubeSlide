@@ -1,5 +1,20 @@
 # CubeSlide
 ## Changelog
+### Version 3.0
++Added an invincibility Item
+
++Added a speed Pads
+
++Added Quality Settings
+
++Added Options Menu
+
++Added a how to Play
+
++Added item indicators
+
+Made Items disappear when you collect them
+
 ### Version 2.0
 +Added a Highscore
 

@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 8921102847377921056, guid: 5ec3426b88dc7914699ff631ca9c94d5,
         type: 3}
       propertyPath: m_Name
-      value: Tile_3
+      value: Tile_9
       objectReference: {fileID: 0}
     - target: {fileID: 8921102847377921068, guid: 5ec3426b88dc7914699ff631ca9c94d5,
         type: 3}
@@ -151,6 +151,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SlowMo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367640442463051381, guid: 9e1697c80e61a0248828d1dbe2876f4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e1697c80e61a0248828d1dbe2876f4f, type: 3}
