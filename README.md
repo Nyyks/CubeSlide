@@ -1,5 +1,14 @@
 # CubeSlide
 ## Changelog
+### Version 4.0
++Added more obstacles
+
++You can now restart by pressing Space
+
++Added the version number to the settings
+
+Made some general bug fixes
+
 ### Version 3.0
 +Added an invincibility Item
 

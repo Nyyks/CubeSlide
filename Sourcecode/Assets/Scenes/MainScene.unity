@@ -396,6 +396,8 @@ MonoBehaviour:
   - {fileID: 124404432639353455, guid: 5811bf1a5bbd0154aa28fbe83ef85146, type: 3}
   - {fileID: 2102409670600781153, guid: 0e18a0693b9d6ce4f806ee3a49c368c1, type: 3}
   - {fileID: 1799141804454154316, guid: ee24ef7630ff3ec498843e452c7a1686, type: 3}
+  - {fileID: 6976694090452621229, guid: ab038fd042132a741b889d26e952a4bd, type: 3}
+  - {fileID: 5577901824484020237, guid: 5ae7fff2558ad6947b33ce666788555f, type: 3}
 --- !u!4 &485184891
 Transform:
   m_ObjectHideFlags: 0
@@ -697,7 +699,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.033e-42, y: 1.01e-43, z: 980710.94, w: 0}
+  m_BoundingSphereOverride: {x: NaN, y: 174.85132, z: NaN, w: 5.72e-43}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1030,7 +1032,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -163, y: 208}
+  m_AnchoredPosition: {x: -174, y: 208}
   m_SizeDelta: {x: 110, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &933557272
@@ -1863,7 +1865,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -162.99997, y: 205.35002}
+  m_AnchoredPosition: {x: -109, y: 205.35002}
   m_SizeDelta: {x: 110, y: 89.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1948240892

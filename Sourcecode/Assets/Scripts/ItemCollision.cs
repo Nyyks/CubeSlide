@@ -66,8 +66,9 @@ public class ItemCollision : MonoBehaviour
     //Speed Pad
     void Speed()
     {
-        Time.timeScale = 2.0f;
-        Invoke("EndSpeed", 1.5f);
+        Time.timeScale = 1.65f;
+        Invoke("EndSpeed", 1.2f);
+        ItemIcons[0].SetActive(false);
     }
 
   void EndSpeed()

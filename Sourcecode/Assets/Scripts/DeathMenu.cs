@@ -14,7 +14,12 @@ public class DeathMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey("space"))
+        {
+            Restart();
+        }
+
+
     }
 
     public void ToggleEndMenu(float score)
@@ -27,11 +32,14 @@ public class DeathMenu : MonoBehaviour
     public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1.0f;
     }
 
     public void Menu()
     {
         SceneManager.LoadScene(0);
     }
+
+    
 
 }
