@@ -1,6 +1,6 @@
 # CubeSlide
 ## Changelog
-###Version 4.5
+### Version 4.5
 +Added Skins
 
 Fixed the Dropdown Menus
