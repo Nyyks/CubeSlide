@@ -1,5 +1,12 @@
 # CubeSlide
 ## Changelog
+###Version 4.5
++Added Skins
+
+Fixed the Dropdown Menus
+
+Made some Bugfixes
+
 ### Version 4.0
 +Added more obstacles
 

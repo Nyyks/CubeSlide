@@ -382,7 +382,7 @@ MonoBehaviour:
   safeZone: 15
   tilePrefabs:
   - {fileID: 1649323605118239258, guid: 4d04e04e3f569854da28e32258c59a43, type: 3}
-  - {fileID: 7758035971033115774, guid: 40462e8e78589e040aad9aa941b019fe, type: 3}
+  - {fileID: 4372701277970738339, guid: 5e681bf6cd46bc84191c628f52350bb0, type: 3}
   - {fileID: 8921102847377921056, guid: 5ec3426b88dc7914699ff631ca9c94d5, type: 3}
   - {fileID: 1054065322345625695, guid: 09a66ac0b53262f4a9d875b01f73365f, type: 3}
   - {fileID: 4635702010918105665, guid: 6172c445f6ee0af47b24f172a320c569, type: 3}
@@ -699,7 +699,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: NaN, y: 174.85132, z: NaN, w: 5.72e-43}
+  m_BoundingSphereOverride: {x: NaN, y: 0, z: NaN, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1985,3 +1985,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88076ba9a1feaba48b98565d796f6b70, type: 3}
+--- !u!1 &420931158254857348 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 420931158346425408, guid: 88076ba9a1feaba48b98565d796f6b70,
+    type: 3}
+  m_PrefabInstance: {fileID: 420931158254857347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &420931158254857349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420931158254857348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245723c2bda337a4a9bed236545ddb7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Color:
+  - {fileID: 2100000, guid: f37b5e8112245e24e8783969d8310adf, type: 2}
+  - {fileID: 2100000, guid: 17f02b166e5684c47b67a698d00b98af, type: 2}
+  - {fileID: 2100000, guid: d20991437ad08cc40ad7d3e734b9bb3b, type: 2}
+  - {fileID: 2100000, guid: c265bff2209368b4aba956c9ab3f615d, type: 2}
+  - {fileID: 2100000, guid: b77217867fbbb904f9a1797db59cb601, type: 2}
+  - {fileID: 2100000, guid: f37b5e8112245e24e8783969d8310adf, type: 2}
+  - {fileID: 2100000, guid: d5042b365606dfa43bebea2f256f8ff2, type: 2}
+  - {fileID: 2100000, guid: a6f5f2907756c9c4ebd695bf4c7eca2c, type: 2}
+  - {fileID: 2100000, guid: 4281bc3484a48fb4682028cfa1855bcc, type: 2}
+  - {fileID: 2100000, guid: 1a3f1c3ecf2f81a44a0159c5727d1779, type: 2}
+  - {fileID: 2100000, guid: eb3a42b4d7efad04c97b975e3526846f, type: 2}
+  - {fileID: 2100000, guid: aa1921d5e737c9540873b23f1c03672f, type: 2}
+  - {fileID: 2100000, guid: a8625f73f7a95ab4cad7f4e03eaa5c14, type: 2}
+  - {fileID: 2100000, guid: b323ee87b9ffa9c428068f892e83e95f, type: 2}
+  - {fileID: 2100000, guid: ee39919afdfe13140858fb5b73437aed, type: 2}
+  - {fileID: 2100000, guid: d87b3de771b770848b4130050811c813, type: 2}
+  - {fileID: 2100000, guid: e6a47fd249ee6e04c9d91474cd29b0db, type: 2}
+  - {fileID: 2100000, guid: d6c6d815851601a4fbea1a967cafdd56, type: 2}
+  ColorRenderer: {fileID: 420931158254857350}
+--- !u!23 &420931158254857350 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 420931158346425414, guid: 88076ba9a1feaba48b98565d796f6b70,
+    type: 3}
+  m_PrefabInstance: {fileID: 420931158254857347}
+  m_PrefabAsset: {fileID: 0}

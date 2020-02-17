@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - MainMenu
     - OptionsMenu
     - PlayerCollision
+    - PlayerColor
     - PlayerMovement
     - TileManager
     Unity.Rider.Editor.dll:
@@ -163,6 +164,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12948}
     - Class: 114
       Script: {instanceID: 12970}
+    - Class: 114
+      Script: {instanceID: 15522}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -490,7 +493,7 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: b0e00d93c67fdce4d464d600d5d67145
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OptionsMenu
@@ -668,6 +671,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a6d8ddc8016f7861efef92f5c06a58d9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerColor
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
